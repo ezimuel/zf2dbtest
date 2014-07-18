@@ -1,0 +1,28 @@
+{
+    "repositories": [
+    {
+        "type"   : "package",
+        "package": {
+            "name"   : "zendframework/zf2",
+            "version": "dev-master",
+            "source" : {
+                "url"      : "https://github.com/ezimuel/zf2.git",
+                "type"     : "git",
+                "reference": "origin/fix/#6445"
+            }
+        }
+    }
+   ],
+    "require" : {
+        "zendframework/zf2": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zf2DbTest\\": "src/"
+        },
+        "psr-0": {
+            "Zend\\": "vendor/zendframework/zf2/library/"
+        }
+    },
+    "bin": ["bin/test.php"]
+}

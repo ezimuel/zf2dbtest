@@ -1,0 +1,10 @@
+<?php
+return array(
+	'driver'   => '',
+    'database' => '',
+    'username' => '',
+    'password' => '',
+    'port'     => '',
+    'charset'  => '',
+    'driver_options' => array() 
+);
