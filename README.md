@@ -2,7 +2,6 @@ ZF2 DB Testing
 ==============
 
 This is a tool for testing the DB components of [Zend Framework 2](https://github.com/zendframework/zf2) (ZF2) using a real database and some functional tests.
-The test cases are stored in the tests folder using the prefix name `test_`.
 
 Installation
 ------------
