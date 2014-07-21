@@ -74,10 +74,7 @@ class Setup
             try {
                 include $filename;
             } catch (\Exception $e) {
-                printf(
-                    "Error during the execution of the test. Please check that the table %s exists (execute <init> if not)\n",
-                    self::DBTESTNAME
-                );
+                printf("ERROR: %s.\n", $e->getMessage());
                 exit(1);
             }
             printf("\n");
